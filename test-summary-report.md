@@ -59,7 +59,7 @@ Two test cases were marked **Blocked** rather than Pass/Fail:
 1. Card number length limit
 2. First/Last name maximum length
 
-Both were testing rules that are not documented or explicitly specified anywhere in the application (no stated max length for these fields), so a definitive Pass/Fail verdict couldn't be given without confirming the intended behavior with the product owner. They are recorded here as Blocked to reflect that execution was inconclusive, rather than as a confirmed defect — see the notes in [bug-reports/BUG_REPORTS.md](bug-reports/BUG_REPORTS.md) for the reasoning.
+Both were testing rules that are not documented or explicitly specified anywhere in the application (no stated max length for these fields), so a definitive Pass/Fail verdict couldn't be given without confirming the intended behavior with the product owner. They are recorded here as Blocked to reflect that execution was inconclusive, rather than as a confirmed defect.
 
 ## 5. Defect Summary
 
@@ -69,8 +69,6 @@ All 18 Fail results correspond 1:1 to defects logged in Jira (BF-1 – BF-18 / B
 - User can proceed with invalid or empty required fields on Passenger Details and Payment (no client-side validation).
 - Duplicate "Pay now" clicks are not debounced, allowing duplicate submission requests.
 - Return date validation gaps (e.g. Return date before Departure date not blocked).
-
-Full details for every defect are documented in [bug-reports/BUG_REPORTS.md](bug-reports/BUG_REPORTS.md).
 - Concurrency/race-condition testing around the duplicate "Pay now" submission defect, to see if it can result in duplicate bookings or charges.
 - Accessibility checks (keyboard navigation, screen reader labels) on the booking form.
 - Formal confirmation of undocumented business rules (name/card field length limits) with the product owner, to close out the two Blocked cases.
