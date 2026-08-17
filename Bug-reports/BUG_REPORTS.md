@@ -33,8 +33,8 @@ The system should only allow one flight checkbox to be selected at a time.
 **Actual result:**
 The system allows all flight checkboxes to be selected simultaneously, with no restriction preventing multiple selections.
 
-**Screenshot of the bug [BG-2]:**
-![BG-2](screenshots/BG-2.png)
+**Screenshot of the bug [BF-2]:**
+![BF-2](screenshots/BF-2.png)
 
 ---
 
@@ -54,8 +54,8 @@ The system should not display flight results or allow the user to proceed when n
 **Actual result:**
 The user is redirected to the Passenger Details page even though the Destination field was left at the default placeholder ("Destination") with no city selected.
 
-**Screenshot of the bug [BG-3]:**
-![BG-3](screenshots/BG-3.png)
+**Screenshot of the bug [BF-3]:**
+![BF-3](screenshots/BF-3.png)
 
 ---
 
@@ -75,8 +75,8 @@ The system should not display flight results or allow the user to proceed when n
 **Actual result:**
 The user is redirected to the Passenger Details page even though the Origin field was left at the default placeholder ("Origin") with no city selected.
 
-**Screenshot of the bug [BG-4]:**
-![BG-4](screenshots/BG-4.png)
+**Screenshot of the bug [BF-4]:**
+![BF-4](screenshots/BF-4.png)
 
 ---
 
@@ -96,8 +96,8 @@ The system should not display flight results or allow the user to proceed when O
 **Actual result:**
 The system displays flight results and allows the user to select a flight and proceed, even though Origin and Destination are both set to "New York".
 
-**Screenshot of the bug [BG-5]:**
-![BG-5](screenshots/BG-5.png)
+**Screenshot of the bug [BF-5]:**
+![BF-5](screenshots/BF-5.png)
 
 ---
 
@@ -117,8 +117,8 @@ The system should not display flight results or allow the user to proceed when t
 **Actual result:**
 The system displays flight results and allows the user to select a flight and proceed, even though the Departing date is earlier than the current date.
 
-**Screenshot of the bug [BG-6]:**
-![BG-6](screenshots/BG-6.png)
+**Screenshot of the bug [BF-6]:**
+![BF-6](screenshots/BF-6.png)
 
 ---
 
@@ -138,8 +138,8 @@ The system should not display flight results or allow the user to proceed when t
 **Actual result:**
 The system displays flight results and allows the user to select a flight and proceed, even though the Returning date (03 November 2026) is earlier than the Departing date (06 November 2026).
 
-**Screenshot of the bug [BG-7]:**
-![BG-7](screenshots/BG-7.png)
+**Screenshot of the bug [BF-7]:**
+![BF-7](screenshots/BF-7.png)
 
 ---
 
@@ -158,8 +158,8 @@ The system should not allow the user to proceed when the First name field is emp
 **Actual result:**
 The user is redirected to the Payment page even though the First name field was left empty.
 
-**Screenshot of the bug [BG-8]:**
-![BG-8](screenshots/BG-8.png)
+**Screenshot of the bug [BF-8]:**
+![BF-8](screenshots/BF-8.png)
 
 ---
 
@@ -178,8 +178,8 @@ The system should not allow the user to proceed when First name or Last name con
 **Actual result:**
 The user is redirected to the Payment page even though both First name and Last name contain invalid special characters.
 
-**Screenshot of the bug [BG-9]:**
-![BG-9](screenshots/BG-9.png)
+**Screenshot of the bug [BF-9]:**
+![BF-9](screenshots/BF-9.png)
 
 ---
 
@@ -198,8 +198,8 @@ The system should not allow the user to proceed when First name or Last name con
 **Actual result:**
 The user is redirected to the Payment page even though both First name and Last name contain only numeric characters.
 
-**Screenshot of the bug [BG-10]:**
-![BG-10](screenshots/BG-10.png)
+**Screenshot of the bug [BF-10]:**
+![BF-10](screenshots/BF-10.png)
 
 ---
 
@@ -218,8 +218,8 @@ The system should not allow the user to proceed when First name or Last name con
 **Actual result:**
 The user is redirected to the Payment page even though both First name and Last name contain only whitespace.
 
-**Screenshot of the bug [BG-11]:**
-![BG-11](screenshots/BG-11.png)
+**Screenshot of the bug [BF-11]:**
+![BF-11](screenshots/BF-11.png)
 
 ---
 
@@ -239,8 +239,8 @@ The system should not allow the user to proceed when Card holder's name contains
 **Actual result:**
 The system processes the payment and generates a booking confirmation (Booking number: 116191) even though the Card holder's name field contains only numeric characters ("111111").
 
-**Screenshot of the bug [BG-12]:**
-![BG-12](screenshots/BG-12.png)
+**Screenshot of the bug [BF-12]:**
+![BF-12](screenshots/BF-12.png)
 
 ---
 
@@ -260,8 +260,8 @@ The system should not allow the user to proceed when the Card holder's name fiel
 **Actual result:**
 The system processes the payment and generates a booking confirmation (Booking number: 116191) even though the Card holder's name field was left empty.
 
-**Screenshot of the bug [BG-13]:**
-![BG-13](screenshots/BG-13.png)
+**Screenshot of the bug [BF-13]:**
+![BF-13](screenshots/BF-13.png)
 
 ---
 
@@ -281,8 +281,8 @@ The system should not allow the user to proceed when the Card number field conta
 **Actual result:**
 The system processes the payment and generates a booking confirmation (Booking number: 116191) even though the Card number field contains only letters ("aaaa aaaa aaaa aaaa").
 
-**Screenshot of the bug [BG-14]:**
-![BG-14](screenshots/BG-14.png)
+**Screenshot of the bug [BF-14]:**
+![BF-14](screenshots/BF-14.png)
 
 ---
 
@@ -302,8 +302,8 @@ The system should not allow the user to proceed when the Card number field is em
 **Actual result:**
 The system processes the payment and generates a booking confirmation (Booking number: 116191) even though the Card number field was left empty.
 
-**Screenshot of the bug [BG-15]:**
-![BG-15](screenshots/BG-15.png)
+**Screenshot of the bug [BF-15]:**
+![BF-15](screenshots/BF-15.png)
 
 ---
 
@@ -322,8 +322,8 @@ The system should not allow the user to proceed when no Card type is selected; i
 **Actual result:**
 The system processes the payment and generates a booking confirmation (Booking number: 116191) even though no Card type (Visa or Master) was selected.
 
-**Screenshot of the bug [BG-16]:**
-![BG-16](screenshots/BG-16.png)
+**Screenshot of the bug [BF-16]:**
+![BF-16](screenshots/BF-16.png)
 
 ---
 
@@ -342,8 +342,8 @@ The system should not allow the user to proceed when the Expiry date is earlier 
 **Actual result:**
 The system processes the payment and generates a booking confirmation (Booking number: 116191) even though the Expiry date (01/2026) is earlier than the current date.
 
-**Screenshot of the bug [BG-17]:**
-![BG-17](screenshots/BG-17.png)
+**Screenshot of the bug [BF-17]:**
+![BF-17](screenshots/BF-17.png)
 
 ---
 
@@ -362,7 +362,7 @@ The system should disable the "Pay now" button (or otherwise prevent resubmissio
 **Actual result:**
 Multiple duplicate "confirm" XHR requests (19 requests observed, all returning status 200) are sent to the server, one for each click, with no debounce or button-disable protection preventing resubmission — creating risk of duplicate bookings or charges for a single transaction.
 
-**Screenshot of the bug [BG-18]:**
-![BG-18](screenshots/BG-18.png)
+**Screenshot of the bug [BF-18]:**
+![BF-18](screenshots/BF-18.png)
 
 ---
