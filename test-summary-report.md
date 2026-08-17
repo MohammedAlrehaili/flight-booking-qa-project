@@ -18,7 +18,7 @@
 | Blocked | 2 | 3.5% |
 | **Total** | **58** | **100%** |
 
-Of the 58 test cases executed, 38 passed, confirming that the core "happy path" flows (Login, Select Flight, Passenger Details, and Payment with valid data) work as expected. The 18 failures all fall under negative/invalid-input scenarios and correspond to 18 confirmed defects (BG-1 – BG-18, see [bug-reports/BUG_REPORTS.md](bug-reports/BUG_REPORTS.md)) — mainly missing client-side validation, allowing the user to proceed with invalid or empty required fields.
+Of the 58 test cases executed, 38 passed, confirming that the core "happy path" flows (Login, Select Flight, Passenger Details, and Payment with valid data) work as expected. The 18 failures all fall under negative/invalid-input scenarios and correspond to 18 confirmed defects (BG-1 – BG-18, — mainly missing client-side validation, allowing the user to proceed with invalid or empty required fields.
 
 ## 2. Results by Module
 
