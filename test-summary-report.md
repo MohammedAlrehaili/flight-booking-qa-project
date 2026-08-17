@@ -71,14 +71,6 @@ All 18 Fail results correspond 1:1 to defects logged in Jira (BF-1 – BF-18 / B
 - Return date validation gaps (e.g. Return date before Departure date not blocked).
 
 Full details for every defect are documented in [bug-reports/BUG_REPORTS.md](bug-reports/BUG_REPORTS.md).
-
-## 6. What I'd Test Next
-
-With more time, I would extend coverage to:
-
-- Cross-browser and mobile-responsive testing (this cycle was executed on Chrome desktop only).
-- API-level validation testing, to confirm whether the missing validations are UI-only or also missing server-side.
-- Session/timeout behavior during a multi-step booking flow (e.g. what happens if a session expires between Select Flight and Payment).
 - Concurrency/race-condition testing around the duplicate "Pay now" submission defect, to see if it can result in duplicate bookings or charges.
 - Accessibility checks (keyboard navigation, screen reader labels) on the booking form.
 - Formal confirmation of undocumented business rules (name/card field length limits) with the product owner, to close out the two Blocked cases.
