@@ -14,8 +14,8 @@ The system should display a validation error message indicating that a flight mu
 **Actual result:**
 The system proceeds directly to the Passenger Details page without requiring a flight selection, with no validation error shown.
 
-**Screenshot of the bug [BG-1]:**
-![BG-1](screenshots/BG-1.png)
+**Screenshot of the bug [BF-1]:**
+![BF-1](screenshots/BF-1.png)
 
 ---
 
