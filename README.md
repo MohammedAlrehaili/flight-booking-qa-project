@@ -11,8 +11,8 @@ Agile Travel is a demo flight booking site covering the flow: **Login → Select
 | File / Folder | Description |
 |---|---|
 | [`test-scenarios/Book_Flight_Test_Cases.xlsx`](test-scenarios/Book_Flight_Test_Cases.xlsx) | 58 test cases (positive, negative, edge case) across Login, Select Flight, Passenger Details, and Payment, prioritized High/Normal/Low |
-| [`bug-reports/BUG_REPORTS.md`](bug-reports/BUG_REPORTS.md) | 18 defects found during execution, each with steps to reproduce, expected result, and actual result |
-| [`bug-reports/screenshots/`](bug-reports/screenshots/) | Supporting screenshots referenced in the bug reports |
+| [`bug-reports/BUG_REPORTS.md`](Bug-reports/BUG_REPORTS.md) | 18 defects found during execution, each with steps to reproduce, expected result, and actual result |
+| [`bug-reports/screenshots/`](Bug-reports/screenshots/) | Supporting screenshots referenced in the bug reports |
 | [`test-summary-report.md`](test-summary-report.md) | Execution summary: pass/fail/blocked results, breakdown by module and priority, and next steps |
 
 ## Tools & Techniques Used
